@@ -1,0 +1,108 @@
+body {
+    background-color: #EBEAEF;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #4270C8;
+    width: 60vw;
+    margin-top: -90px;
+}
+
+p.mb-1 {
+    font-size: 25px;
+    color: #9FB7FD;
+    
+}
+
+.btn-primary {
+    border: none;
+    background: #5777DE;
+    margin-bottom: 60px;
+}
+
+.btn-primary small {
+    color: #9FB7FD;
+}
+
+.btn-primary span {
+    font-size: 13px;
+}
+
+.card.two {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #E6EBEE;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 2px solid #8A97A8;
+}
+
+.form-control-placeholder {
+    position: absolute;
+    cursor: text;
+    top: 0px;
+    left: 10px;
+    transition: all 200ms;
+    opacity: 0.5;
+    font-size: 80%;
+    
+}
+
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder{
+    top: 0px;
+    font-size: 80%;
+    transform: translate3d(0, -90%, 0);
+    opacity: 1;
+    color: #8B92AC;
+}
+
+.btn-block {
+    border: none;
+    border-radius: 8px;
+    background-color: #506CCF;
+    padding: 10px 0 12px;
+}
+
+.btn-block:focus {
+    box-shadow: none;
+}
+
+.btn-block span {
+    font-size: 15px;
+    color: #D0E6FF;
+}
+.error-message{
+    color: rgb(245, 55, 55);
+    margin-bottom: 10px;
+    margin-top: -40px;
+    text-align: center;
+    font-weight: 600;
+}
+.form-for-difficulty{
+    position: absolute;
+    color: #8B92AC;
+    left: 10px;
+    top: -20px;
+    font-size: 80%;
+}
